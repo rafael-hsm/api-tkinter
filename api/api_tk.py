@@ -36,7 +36,7 @@ class MovieData:
             self.list.insert(END, ("Title: " + dict["Title"]))
             self.list.insert(END, ("Year: " + dict["Year"]))
             self.list.insert(END, ("Released: " + dict["Released"]))
-            self.list.insert(END, ("Time: " + dict["Time"]))
+            self.list.insert(END, ("Runtime: " + dict["Runtime"]))
             self.list.insert(END, ("Genre: " + dict["Genre"]))
             self.list.insert(END, ("Director: " + dict["Director"]))
         except:
